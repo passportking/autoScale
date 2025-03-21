@@ -19,7 +19,7 @@ pipeline {
         }
         stage('Checkout Code') {
             steps {
-                git branch: 'main', url: 'https://github.com/passportking/Jenkinsfile.git' 
+                git branch: 'main', url: 'https://github.com/passportking/autoScale.git' 
             }
         }
         stage('Initialize Terraform') {
